@@ -15,6 +15,7 @@
 .header-logo {
     width: 30%;
     display: flex;
+    color: #f9faf8;
     justify-content: start;
     align-items: center;
     padding-left: 100px;
@@ -44,7 +45,7 @@
     display: flex;
     align-items: center;
     background-color: #1f2937;
-    color: gray;
+    color: #e5e7eb;
 }
 
 .hero-left {
@@ -59,6 +60,7 @@
 .hero-left h1{
     font-size: 48px;
     color: white;
+    font-weight: 900;
 }
 
 .hero-left button {
@@ -81,4 +83,38 @@
 .hero-right img {
     width: auto;
     height: 500px;
+}
+/* MAIN */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.first-section {
+    padding: 0 100px;
+}
+.first-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 40px;
+}
+/* GALLERY */
+
+.gallery-section {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.gallery-section img {
+    width: 150px;
+    height: auto;    
+}
+
+.gallery-section p {
+    font-size: 10px;
+    text-align: center;
+    width: 150px;
 }
