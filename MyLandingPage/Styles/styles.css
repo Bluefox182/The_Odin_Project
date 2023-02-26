@@ -1,120 +1,176 @@
 * {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    /* padding: 0; */
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  /* padding: 0; */
 }
 
 .navbar {
-    background-color: #1f2937;
-    width: 100%;
-    color: aliceblue;
-    display: flex;
-    
+  background-color: #1f2937;
+  width: 100%;
+  color: aliceblue;
+  display: flex;
 }
 
 .header-logo {
-    width: 30%;
-    display: flex;
-    color: #f9faf8;
-    justify-content: start;
-    align-items: center;
-    padding-left: 100px;
+  width: 30%;
+  display: flex;
+  color: #f9faf8;
+  justify-content: start;
+  align-items: center;
+  padding-left: 100px;
 }
 
 .header-menu {
-    width: 70%;
-    display: flex;
-    justify-content: end;
-    padding-right: 100px;
+  width: 70%;
+  display: flex;
+  justify-content: end;
+  padding-right: 100px;
 }
 
 .header-menu ul {
-    display: flex;
-    padding: 10px;
+  display: flex;
+  padding: 10px;
 }
 
 .header-menu li {
-    display: flex;
-    padding: 10px;
+  display: flex;
+  padding: 10px;
 }
 
 /* Hero */
-.hero  {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    background-color: #1f2937;
-    color: #e5e7eb;
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
 
 .hero-left {
-    padding-left: 100px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: left;
+  padding-left: 100px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: left;
 }
 
-.hero-left h1{
-    font-size: 48px;
-    color: white;
-    font-weight: 900;
+.hero-left h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: 900;
 }
 
 .hero-left button {
-    width: 150px;
-    padding: 10px;
-    margin: 20px 0;
-    background-color: #3882f6;
-    border: none;
-    border-radius: 10px;
-    color: white;
+  width: 150px;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  color: white;
 }
 
 .hero-right {
-    padding-right: 100px;
-    width: 60%;
-    display: flex;
-    justify-content: end;
+  padding-right: 100px;
+  width: 60%;
+  display: flex;
+  justify-content: end;
 }
 
 .hero-right img {
-    width: auto;
-    height: 500px;
+  width: auto;
+  height: 500px;
 }
 /* MAIN */
 .main-section {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
 }
 
 .first-section {
-    padding: 0 100px;
+  padding: 0 100px;
 }
 .first-section h2 {
-    text-align: center;
-    font-size: 36px;
-    margin: 40px;
+  text-align: center;
+  font-size: 36px;
+  margin: 40px;
 }
 /* GALLERY */
 
 .gallery-section {
-    display: flex;
-    padding-bottom: 20px;
-    justify-content: center;
-    gap: 40px;
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 50px;
 }
 
 .gallery-section img {
-    width: 150px;
-    height: auto;    
+  width: 150px;
+  height: auto;
 }
 
 .gallery-section p {
-    font-size: 10px;
-    text-align: center;
-    width: 150px;
+  font-size: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+/* SECOND SECTION */
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  margin: 20px 0;
+  padding: 50px 100px;
+}
+
+.second-section h3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 300;
+}
+.second-section p {
+  text-align: end;
+  font-weight: bolder;
+}
+
+.quote-one,
+.quote-two {
+  padding: 40px 0;
+  width: 50%;
+}
+
+/* THIRD SECTION */
+
+.third-section {
+  background-color: #3882f6;
+  margin: 100px;
+  color: white;
+  border-radius: 10px;
+}
+
+.bottom-banner {
+  display: flex;
+  padding: 50px 200px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bottom-banner p {
+  color: #e5e7eb;
+}
+
+.bottom-banner button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 5px 40px;
 }
